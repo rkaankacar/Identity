@@ -1,4 +1,5 @@
 using IdentityApp.Data;
+using IdentityApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -34,5 +35,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+IdentitySeedData.IdentityTestUser(app);
 
 app.Run();

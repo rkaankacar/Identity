@@ -20,7 +20,7 @@ Kullanıcılar, rollerine bağlı olarak uygulamanın farklı bölümlerine eri�
 
 Kullanıcıların e-posta adresleri onaylanarak, güvenli bir hesap doğrulaması yapılır.
 E-posta onayı yapılmadan, kullanıcılar sisteme erişim sağlayamaz.
-##Cookie Tabanlı Kullanıcı Girişi:
+## Cookie Tabanlı Kullanıcı Girişi:
 
 Kullanıcılar giriş yaptıktan sonra, giriş bilgileri bir cookie aracılığıyla hatırlanır.
 Kullanıcılar, belirli bir süre boyunca tekrar giriş yapmadan siteyi kullanabilirler.
